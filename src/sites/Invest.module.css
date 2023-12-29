@@ -1,0 +1,41 @@
+.formWrapper{
+  width: 380px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  width: 100%;
+  padding: 10px 10px 0 0;
+  height: 0;
+  overflow: hidden;
+  transition: height .2s ease-in-out;
+}
+
+.changeHeight{
+  height: 260px;
+}
+
+.products{
+  font-size: 0.7rem;
+}
+
+.product{
+  display: grid;
+  grid-template-columns: 50px auto 50px 80px;
+  align-items: center;
+  background: rgb(207, 207, 207);
+  padding: 0 10px;
+  height: 50px;
+}
+
+.product:nth-child(odd){
+  background: rgb(138, 138, 138);
+}
+
+.product a, .product a:visited{
+  color: black;
+}
+

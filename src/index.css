@@ -1,0 +1,152 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: rgb(216, 216, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+input, button{
+  font: inherit;
+}
+
+h1{
+  margin-bottom: 20px;
+}
+
+#root{
+  background: white;
+  width: 70%;
+  min-height: 100vh;
+  box-shadow: 0 0 1rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.clickable{
+  cursor: pointer;
+}
+
+.product-selection-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: rgb(206, 206, 206);
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+
+.long-input{
+  width: 100%;
+}
+
+
+
+
+
+
+.add-product{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+
+.input-normal{
+  width: 200px;
+}
+
+.input-small{
+  width: 80px;
+}
+
+
+
+
+.button1{
+  background: rgb(92, 92, 255);
+  padding: 6px 10px 6px 10px;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+}
+
+.button1:hover{
+  background: rgb(158, 158, 255);
+  color: black;
+  cursor: pointer;
+}
+
+.button2{
+  background: transparent;
+  border: 0;
+  padding: 0.1rem 0.2rem;
+  border-radius: 0.2rem;
+  color: black;
+}
+
+.button2:hover{
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.divider{
+  border-top: 1px solid black;
+  margin: 20px 0 15px 0;
+}
+
+
+
+
+
+
+
+
+
+.collection-title:hover{
+  cursor: pointer;
+}
+
+
+
+
+.delete-button{
+  border: 0;
+  background: transparent;
+}
+
+.delete-button:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.hover-effect:hover{
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.black-border{
+  border: 1px solid black;
+}
+
+.headline{
+  font-weight: bold;
+}
+
+.text-center{
+  text-align: center;
+}
